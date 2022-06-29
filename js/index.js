@@ -2,7 +2,7 @@
     const user = await API.profile();
     if (!user.data) {
         alert('未登录或登录已失效,请重新登录');
-        location.href = './login.html';
+        location.href = '../login.html';
         return;
     }
     const doms = {

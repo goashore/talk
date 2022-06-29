@@ -47,7 +47,7 @@
         const result = await API.reg(data);
         if (result.code === 0) {
             alert('恭喜你,注册成功');
-            location.href = './login.html'
+            location.href = '../login.html'
         }
     })
 })();
