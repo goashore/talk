@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>聊天机器人-用户注册</title>
+    <link rel="shortcut icon" href="./asset/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/reg.css">
+</head>
+<body>
+<form class="form-container">
+    <h1 class="title-info">
+        <img class="title-img" src="./asset/robot.png" alt="">
+        聊天机器人
+    </h1>
+    <div class="group-item">
+        <i class="iconfont icon-yonghu"></i>
+        <input type="text" name="loginId" id="loginId" placeholder="请输入账号" />
+        <p class="err"></p>
+    </div>
+    <div class="group-item">
+        <i class="iconfont icon-yonghu"></i>
+        <input type="text" name="nickname" id="nickname" placeholder="请输入昵称" />
+        <p class="err"></p>
+    </div>
+    <div class="group-item">
+        <i class="iconfont icon-mima"></i>
+        <input type="password" name="loginPwd" id="loginPwd" placeholder="请输入密码" />
+        <p class="err"></p>
+    </div>
+    <div class="group-item">
+        <i class="iconfont icon-mima"></i>
+        <input type="password" name="loginPwdConfirm" id="loginPwdConfirm" placeholder="请再次输入密码" />
+        <p class="err"></p>
+    </div>
+    <div class="group-item">
+        <button class="submit">注册</button>
+    </div>
+    <div class="group-item">
+        <p class="msg">
+            已有账号？
+            <a href="./login.html">点击这里登录</a>
+        </p>
+    </div>
+</form>
+<script src="./js/common.js"></script>
+<script src="./js/api.js"></script>
+<script src="./js/user.js"></script>
+<script src="./js/reg.js"></script>
+</body>
+</html>
